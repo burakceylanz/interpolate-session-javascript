@@ -1,5 +1,5 @@
 ﻿# interpolate-session-javascript
  
-Bir kullanıcı bir sohbet botuyla konuştuğunda, adı, yaşı, doğum yeri veya en sevdiği renk gibi bazı ilginç veriler bırakabilir. Burada ise kullanıcının bir sohbet botuyla konuştuğunda ad bilgisini bırakmasını sağlıyoruz. Sohbet konuşmasının durumunu temsil eden bir nesne olan firstname  **Session**'da saklandı. Bu bot oturumda depolanan değişkenleri kendi gönderdiği mesajlarda kullanıyor ve bu oturum değişkenlerini görüşme içinde kullanılıyor.
+When a user talks to a chatbot, it may leave some interesting data such as name, age, place of birth or favorite color. Here we make the user leave the name information when talking to a chatbot. Firstname, an object representing the state of the chat conversation, was stored in **session**. This bot uses session variables stored in its messages and uses these session variables in the conversation.
 
 
